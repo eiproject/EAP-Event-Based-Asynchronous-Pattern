@@ -5,7 +5,8 @@ namespace EAP_Event_Based_Asynchronous_Pattern {
     static void Main(string[] args) {
       Console.WriteLine("EAP!");
       // BWSimple bw = new BWSimple();
-      BWCancelable bwc = new BWCancelable();
+      // BWCancelable bwc = new BWCancelable();
+      InterruptAbort ia = new InterruptAbort();
     }
   }
 }
