@@ -12,6 +12,7 @@ namespace EAP_Event_Based_Asynchronous_Pattern {
       _bw.RunWorkerAsync("Heyyyaa");
       Console.ReadKey();
     }
+
     private void Foo(object sender, DoWorkEventArgs e) {
       Console.WriteLine(e.Argument);
     }
